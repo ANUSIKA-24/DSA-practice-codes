@@ -1,0 +1,22 @@
+import java.util.*;
+public class oops
+{
+    public static void amin(String args[])
+    {
+        Complex ob=new Complex();
+        ob.sum(real,img);
+    }
+}
+class Complex
+{
+    Scanner in=new Scanner(System.in);
+    System.out.println("enter the real and complex part of nuumber");
+    Complex real=in.nextComplex();
+    Complex img=in.nextComplex();
+    
+    void sum(complex real,complex img)
+    {
+        System.out.println("sum is"+(real+img));
+    }
+
+}
